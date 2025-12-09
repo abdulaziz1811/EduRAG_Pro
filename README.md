@@ -5,14 +5,14 @@
 [![OpenAI](https://img.shields.io/badge/AI-GPT--3.5%2F4-green)](https://openai.com/)
 [![RAG](https://img.shields.io/badge/Technique-RAG-orange)](https://arxiv.org/abs/2005.11401)
 
-## 📖 Executive Summary
+##  Executive Summary
 **EduRAG Pro** is an advanced educational platform designed to bridge the gap between assessment and personalized remediation. Leveraging **Retrieval-Augmented Generation (RAG)** and **Large Language Models (LLMs)**, the system provides a dual-interface solution: 
 1. An **Adaptive Student Portal** that offers immediate, context-aware feedback derived directly from curricular textbooks.
 2. A **Pedagogical Teacher Dashboard** equipped with rule-based heuristics to identify at-risk students and generate psychometrically balanced assessments.
 
 ---
 
-## 🏗️ System Architecture & Key Features
+##  System Architecture & Key Features
 
 ### 1. The Student Module (Adaptive Learning)
 * **Two-Tier Assessment Logic:**
@@ -30,7 +30,7 @@
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 | Component | Technology Used | Purpose |
 | :--- | :--- | :--- |
@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 Installation & Setup Guide
+##  Installation & Setup Guide
 
 ### Prerequisites
 * Python 3.8 or higher.
@@ -82,7 +82,7 @@ Teacher Dashboard:
 
 Bash
 streamlit run teacher_app.py
-📂 Project Structure
+ Project Structure
 Plaintext
 EduRAG_Pro/
 ├── student_app.py          # Student interface entry point
@@ -96,7 +96,7 @@ EduRAG_Pro/
 │   └── answers_ch1.csv
 ├── reports/                # Generated analytics (Attempts & History)
 └── rag_data/               # Serialized Vector Indices (.pkl)
-🔒 Security & Privacy
+ Security & Privacy
 API Key Safety: API keys are never hardcoded. They are input via the secure sidebar session and are not stored persistently on the server.
 
 Data Integrity: Student records are maintained in local structured CSV files for easy auditing and export.
