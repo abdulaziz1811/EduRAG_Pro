@@ -1,0 +1,10 @@
+
+streamlit
+pandas
+numpy
+scikit-learn
+python-dotenv
+PyPDF2
+sentence-transformers
+faiss-cpu
+openai
